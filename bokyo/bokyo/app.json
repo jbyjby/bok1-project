@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "bokyo",
+    "slug": "bokyo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.myhoneytip.gun",
+      "config": {
+        "googleMobileAdsAppId": ""
+      }
+    },
+    "android": {
+          "package": "com.myhoneytip.gun",
+          "versionCode": 1,
+          "config": {
+            "googleMobileAdsAppId": ""
+          }
+  },
+    "extra": {
+      "eas": {
+        "projectId": "0bb6cebb-509b-4aa8-8dde-1d2be1a270d8"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
+  }
+}
